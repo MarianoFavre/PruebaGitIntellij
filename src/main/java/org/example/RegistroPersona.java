@@ -24,6 +24,12 @@ public class RegistroPersona {
         this.apellidos = apellidos;
     }
 
-
+    @Override
+    public String toString() {
+        return "RegistroPersona{" +
+                "nombre='" + nombre + '\'' +
+                ", apellidos='" + apellidos + '\'' +
+                '}';
+    }
 }
 
