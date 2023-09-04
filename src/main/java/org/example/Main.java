@@ -2,6 +2,8 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Mensaje msj = new Mensaje();
+        String nombre = msj.solicitaDatos("Ingrese tu nombre: ");
+        msj.saludar(nombre);
     }
 }
