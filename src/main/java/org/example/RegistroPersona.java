@@ -26,8 +26,6 @@ public class RegistroPersona {
 
     @Override
     public String toString() {
-        // Mariano comente la línea de código que considero que se puede eliminar
-        //System.out.println("Esta instrucción es inservible");
         return "RegistroPersona{" +
                 "nombre='" + nombre + '\'' +
                 ", apellidos='" + apellidos + '\'' +
